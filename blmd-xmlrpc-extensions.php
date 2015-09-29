@@ -1,15 +1,17 @@
 <?php
 /*
 Plugin Name: BLMD XMLRPC Extensions
-Plugin URI: http://github.com/blmd/blmd-xmlrpc-extensions
+Plugin URI: https://github.com/blmd/blmd-xmlrpc-extensions
 Description: XMLRPC extensions
 Author: blmd
-Author URI: http://github.com/blmd
-Version: 0.1
+Author URI: https://github.com/blmd
+Version: 0.2
+
+GitHub Plugin URI: https://github.com/blmd/blmd-xmlrpc-extensions
 */
 
 !defined( 'ABSPATH' ) && die;
-define( 'BLMD_XMLRPC_EXTENSIONS_VERSION', '0.1' );
+define( 'BLMD_XMLRPC_EXTENSIONS_VERSION', '0.2' );
 define( 'BLMD_XMLRPC_EXTENSIONS_URL', plugin_dir_url( __FILE__ ) );
 define( 'BLMD_XMLRPC_EXTENSIONS_DIR', plugin_dir_path( __FILE__ ) );
 define( 'BLMD_XMLRPC_EXTENSIONS_BASENAME', plugin_basename( __FILE__ ) );
